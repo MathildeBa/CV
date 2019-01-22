@@ -1,0 +1,68 @@
+div{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.section-gros_titre { 
+
+        color: #181B1C;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: flex;
+        align-items:center;
+        flex-direction:column; 
+         
+}
+.section-nom_prénom{
+    font-size: 300%;
+}
+.section-informations_personnelles {
+    display: flex;
+    justify-content: space-around ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #24272E;
+}
+/*logos*/
+.section-informations_personnelles i {
+    display: flex;
+    justify-content: space-around ;
+    color: #161863;
+}
+/*M*/
+.section-nom_prénom .lettre{
+    font-size: 125%;
+}
+/*nom de famille*/
+.section-nom_prénom .nom {
+    display: block;
+    background-color: #161863;
+    color:white;
+    }
+/*athilde*/
+.section-nom_prénom .prenom {
+    background-color: #525996;
+    color:white;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns; 50% 50%;
+    grid-template-areas:
+    "a b";
+
+}
+.section-dessous_gauche{
+    grid-area: a;
+}
+.section-droite{
+    grid-area: b;
+}
+
+/* titre des categories*/
+h5 {
+    font-size: 110%;
+    background-color: #161863;
+    color:white;
+}
+/*titres dec ompetences*/
+h6 {
+    font-size: 90%
+}
