@@ -2,12 +2,13 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Roboto" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
+        <title>Curriculum Vitae</title>
     </head>
     <body>
         <header>
@@ -15,15 +16,15 @@
                 <div class="section-entête">
                     <div class="section-gros_titre"> 
                         <div class="section-nom_prénom" >
-                            <H1> 
+                            <h1 class="display-3"> 
                                 <span class="lettre">M</span>
                                 <span class="prenom">athilde</span>  
                                 <span class="nom">Baquet</span>
-                            </H1>
+                            </h1>
                             
                         </div>
                         <div class="section-poste_recherché">
-                        <H2> Web developpeur junior </H2>
+                        <H3> Developpeuse Web Junior </H3>
                     </div>
                     </div>
                     <div class="section-informations_personnelles">
@@ -50,20 +51,58 @@
                 </div>
             </div>
         </header>
-        <Main> 
-            <div class="section-dessous_gauche">
-                <div class="section-objectif_carrière">
-                    <h5> Objectif de carrière</h5>
-                    <p>
-                        Je me lance le défi d’explorer de nouveaux horizons professionnels, d’adapter ces compétences
-                        acquises à de nouveaux secteurs. Je m’adapte et apprends facilement afin de soutenir l'équipe et
-                        l’entreprise dans l’accomplissement de ses objectifs.
+        <main class="container-fluid"> 
+            <div class="row" id="containerUn">
+                <div class= "col-md-6" id="sectionObjectifStage">
+                    <h5> Objectif de stage</h5>
+                    <p class="text-justify">
+                        Pour moi, ce stage représente une occasion d'apporter une première expérience professionnelle de codeuse, activant mes nouvelles compétences techniques et de savoir-être. Il permet aussi de prolonger mon prentissage en confrontant ce que j'ai appris à BeCode avec la réalité de l’entreprise.
+                        <br/>
                     </p>
                 </div>
-                <div class="section-experiences_professionnelles">
+                <div class="col-md-6" id="sectionChampsCompétences"> 
+                        <h5>Champs de Compétences</h5>
+                        <H6>Informatique au terme de ma formation ( juillet 2019 )</H6>
+                        <p>
+                            <ul> 
+                                o Word, Power Point, Excel
+                                <br/>
+                                o Illustrator, InDesign, Photoshop
+                            </ul>   
+                        </p>
+                        <p>
+                            <ul>
+                                o Développement frontend : HTML, CSS, javascript, Vue.JS, React, Angular
+                                <br/>
+                                o Développement backend : PHP, MySQL, Node JS, React Native, Angular
+                                <br/>
+                                o Développement de prototypes fonctionnels
+                                <br/>
+                                o Maintenance de code existant
+                                <br/>
+                                o Apprentissage de langages supplémentaires
+                            </ul>
+                        </p>
+                        <H6>Langues</H6>
+                        <p>
+                            <ul>o Français : Langue maternel<br />
+                                o Anglais : Capable d’avoir une discussion courante et d'écrire des courriels<br />
+                                o Néerlandais : Notions
+                            </ul>
+                        </p> 
+                    </div>
+            </div>
+            <div class="row" id="containerDeux"> 
+                <div class="col-md-6" id="sectionExperiencesProfessionnelles">
                     <h5>Expériences professionnelles</h5>
                     <p> 
-                        <span>-2018 New Balance (Montréal) : assistante des ventes</span> 
+                        <span> 2018 Bill Gosling Outsourcing (Montréal) : Représentante Des Ventes Bilingue </span>
+                        <ul>
+                            <li>Gérer les appels sortant pour le portfolio American Express en comprenant les besoins des clients et proposer une solution de paiement.</li>
+                            <li>Démontrer un excellent service à la clientèle</li>
+                            <li>Dynamique, compétence interpersonnelle et avoir un bon jugement</li>
+                        </ul>
+                        <span>2018 New Balance (Montréal) : assistante des ventes</span> 
                         <ul>
                             <li>Solutionner les problématiques des clients par la proposition de chaussures adéquates</li>
                             <li>Respecter des objectifs de ventes (KPI)</li>
@@ -90,12 +129,6 @@
                             <li>Fournir un travail multidisciplinaire</li>
                             <li>Gestion du temps de manière autonome pour respecter des objectifs grâce à la priorité des tâches</li>
                         </ul>      
-                    </p>
-                </div>        
-        
-            </div>
-            <div class="section-droite"> 
-                <div class="Section-expreience_professionelle_suite">
                         <span>2007-2013 Jobs Étudiant ; Pharmacie Di, épicerie et bijouterie : commis de vente</span>    
                         <ul>
                             <li>S'exécuter et anticiper les demandes des collaborateurs en vue d’alléger leur charge de travail</li>
@@ -106,36 +139,29 @@
                             <li>Faire preuve d’empathie</li>
                             <li>S’investir et donner le meilleur de soi</li>
                         </ul>  
-                </div>
-                <div class="section-champs_compétences"> 
-                    <h5>Champs de Compétences</h5>
-                    <H6>Informatique</H6>
-                    <p>
-                        <ul> o Word, Power Point, Excel, Internet, Illustrator, InDesign, Photoshop</ul>   
                     </p>
-                    <H6>Langues</H6>
-                    <p>
-                        <ul>o Français : Langue maternel
-                                o Anglais : Capable d’avoir une discussion courante et d'écrire des courriels
-                                o Néerlandais : Notions
-                        </ul>
-                    </p>
-                </div>
-                <div class="section-formations">
+                </div>    
+                <div class= "col-md-6" id ="sectionFormations">
                     <H5>Formation</H5>
                     <p>
                         <ul>
-                            <li>2011-2013 Études supérieures en Marketing (EPHEC Belgique) </li>
-                            <li>2010-2011 Apprentissage de l’anglais (San Diego 6 Mois) 2010 Obtention du CESS technicienne en infographie</li>
+                            <li>2019 Formation développement Web 
+                            <br/>
+                            (Belgique)</li>
+                            <li>2011-2013 Études supérieures en Marketing 
+                            <br/>
+                            (Belgique) 
+                            </li>
+                            <li>2010-2011 Apprentissage de l’anglais
+                            <br/>
+                            (San Diego) 
+                            </li>
+                            <li> Obtention du CESS technicienne en infographie 
+                            <br/>
+                            (Belgique)</li>
                         </ul>    
                     </p>
-                </div>
-                <div class="section-point">
-                    <H5></H5>
-                    <p>
-                        <span></span>
-                    </p>
-                </div>
+                </div>    
             </div>
         </Main>    
     </body>
