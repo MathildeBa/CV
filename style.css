@@ -19,10 +19,6 @@ h3 {
     font-size: 3vw;
 }
 
-.section-nom_prénom{
-    font-size: 2vw;
-    color: red;
-}
 .section-informations_personnelles {
     display: flex;
     justify-content: space-around ;
