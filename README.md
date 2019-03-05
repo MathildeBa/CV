@@ -1,8 +1,6 @@
-# curriculum vitae
+# Curriculum vitae
 En progression.
-
 Modificatiion dans le but d'optenir un stage le 04/03.
-
 Exercice de BeCode de la deuxième semaine 21/01. 
 
 ## Travail final en ligne:
